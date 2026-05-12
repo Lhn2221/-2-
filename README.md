@@ -2,7 +2,7 @@
 
 2. 데이터 및 시각화 결과
    1) 사용 데이터
-      - 강수량: 기상청 2025년도 8월 데이터
+      - 강수량: https://data.kma.go.kr/stcs/grnd/grndRnList.do?pgmNo=69 (250801~250831)
       - 습득물: https://data.seoul.go.kr/dataList/OA-15490/S/1/datasetView.do
       - 회사정보: https://data.seoul.go.kr/dataList/OA-15491/S/1/datasetView.do
       - 교통량: https://topis.seoul.go.kr/refRoom/openRefRoom_8.do (월간 통계 보고서 25년도 8월 pdf 파일)
