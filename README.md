@@ -1,5 +1,5 @@
 1. 사용한 프롬프트 링크
-
+   AI 스튜디오 https://aistudio.google.com/app/prompts?state=%7B%22ids%22:%5B%221OtyR52_K2JSschPy2mKNIzQ68YZ3QZ3t%22%5D,%22action%22:%22open%22,%22userId%22:%22105706419115341458671%22,%22resourceKeys%22:%7B%7D%7D&usp=sharing
 2. 데이터 및 시각화 결과
    1) 사용 데이터
       - 강수량: https://data.kma.go.kr/stcs/grnd/grndRnList.do?pgmNo=69 (250801~250831)
@@ -19,3 +19,9 @@
                  '회사'로 명칭 변경, '최소/최대/인가대수/운행대수/예비대수' 삭제,
                   기본 키 설정을 위해 '회사ID' 삽입
    4) 시각화 결과: 차트 설명 및 인사이트
+<img width="2359" height="1251" alt="image" src="https://github.com/user-attachments/assets/ef8e92db-1438-461f-ac52-fb6663b4b70d" />
+ 일부 일자를 제외하고, 주로 일별 강수량이 높을 때마다 분실물 수가 늘어나는 경향을 보인다. 이는 우산, 우비와 같이 챙겨야 하는 물품이 많을 수록 분실물이 발생하기 쉬운 것임을 확인할 수 있는 지표이다. 우천 시에는 분실물 주의 안내방송 횟수를 늘리고, 전광판에 분실물 주의 화면을 자주 재생하도록 한다.
+<img width="2369" height="858" alt="image" src="https://github.com/user-attachments/assets/88c4f791-2747-4b2c-84bb-6aeb0817acba" />
+  교통량과 환승 구간에 해당하는 지역일 수록 이동 과정에서 분실물이 발생하기 쉬울 것이라 예상했다. 구내 교통량은 강남구, 관악구, 송파구, 강서구, 은평구 순이다. 총 교통량 5위인 은평구가 습득물 수 4위에 있으나, 이 정보만으로는 두 요소간 상관관계를 유의미하게 확인하기 어렵다. 외부 지역으로부터 오는 버스의 데이터로 보완할 필요가 있다.
+<img width="2384" height="789" alt="image" src="https://github.com/user-attachments/assets/90608d8f-6c0e-4e1f-bb6a-7f5e5aadfa09" />
+  분실물 수 순위와 총 운행횟수 순위가 같다. 운행 횟수가 많은 노선일 수록 분실물이 발생했다. 다만, 분실 신고가 접수되거나 본인 요청이 있는 경우만이 기록되고 있으므로, 실제 분실물은 더 많을 것으로 추산된다. 이 5개 회사에 대해서는 분실물 신고에 대한 캠페인을 진행하는 것도 긍정적인 효과를 불러올 수 있다고 판단된다.
